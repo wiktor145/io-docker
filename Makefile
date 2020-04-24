@@ -45,7 +45,7 @@ image:
 	
 push: image
 	# TODO: two commands, first pushes the latest image, second pushes the image tagged with specyfic tag
-	docker push wiktor145/io-docker
+	docker push wiktor145/io-docker:latest
 	docker push wiktor145/io-docker:aaaa
 clean:
 
