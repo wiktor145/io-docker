@@ -8,6 +8,8 @@ services:
       - "5000:5000"
     volumes:
       - .:/code
+    depends_on:
+      -redist
     environment:
       # Makes flask to reload code on change
       FLASK_ENV: development
